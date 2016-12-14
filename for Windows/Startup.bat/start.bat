@@ -1,9 +1,9 @@
 @echo off 
 
-::ÉèÖÃ»·¾³±äÁ¿
+::è®¾ç½®ç¯å¢ƒå˜é‡
 set path=%path%;C:\Program Files\Internet Explorer 
 
-::¿ªÊ¼Æô¶¯
+::å¼€å§‹å¯åŠ¨
 echo changing wallpaper...
 reg add "hkcu\control panel\desktop" /v wallpaper /d "E:\Photo\wallPaper.jpg" /f 
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
